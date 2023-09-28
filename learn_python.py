@@ -1,4 +1,4 @@
-
+import json
 
 # Single line comments start with a number symbol.
 
@@ -162,6 +162,7 @@ some_var  # => 5
 
 # Accessing a previously unassigned variable is an exception.
 # See Control Flow to learn more about exception handling.
+
 some_unknown_var  # Raises a NameError
 
 # if can be used as an expression
